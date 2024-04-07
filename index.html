@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Minute Burger</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    body {
+      background: url("BG.jpg") no-repeat;
+      background-size: cover;
+      background-position: center;
+      font-family: Georgia, serif;
+    }
+
+    h1 {
+      color: #333;
+      text-align: center;
+      font-size: 2.5em;
+      margin-top: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    tbody tr:hover {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Minute Burger</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Catalog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="menu.html">Menu</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-3">
+    <h1>Minute Burger Catalog</h1>
+    <div class="table-responsive">
+      <table class="table table-info table-hover">
+        <thead class="table-dark">
+          
+          <tr>
+            <th>#</th>
+            <th>Buyer</th>
+            <th>Item</th>
+            <th>Delivery</th>
+            <th>Price</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>54</td>
+            <td>Mark Jade Bucao</td>
+            <td>Steak Burger</td>
+            <td>Soldiers Hills 4 Phs 3</td>
+            <td>₱136</td>
+            <td class="table-warning">Transported</td>
+          </tr>
+          
+          <tr>
+            <td>55</td>
+            <td>Yuwa Berde</td>
+            <td>Minute Burger</td>
+            <td>P.O. Box 1201, Manila Central Post Office</td>
+            <td>₱43</td>
+            <td class="table-success">Delivered</td>
+          </tr>
+          
+          <tr>
+            <td>56</td>
+            <td>Lester Barbo</td>
+            <td>Bacon Cheese Burger</td>
+            <td>1135 Quezon City, Metro Manila</td>
+            <td>₱98</td>
+            <td class="table-warning">Transported</td>
+          </tr>
+          
+          <tr>
+            <td>57</td>
+            <td>Nancy Guevarra</td>
+            <td>Chicken Time</td>
+            <td>7114 Kundiman Street, Sampaloc</td>
+            <td>₱50</td>
+            <td class="table-danger">Hold</td>
+          </tr>
+          
+          <tr>
+            <td>58</td>
+            <td>Jerome monte</td>
+            <td>Double Chicken Time</td>
+            <td>75 P. Domingo Street, Carmona, Makati City</td>
+            <td>₱190</td>
+            <td class="table-danger">Hold</td>
+          </tr>
+          
+          <tr>
+            <td>59</td>
+            <td>Juan dela Cruz</td>
+            <td>Chicken Time</td>
+            <td>83-E East Capitol Drive Barrio Kapitolyo 1600</td>
+            <td>₱60</td>
+            <td class="table-danger">Hold</td>
+          </tr>
+          
+          <tr>
+            <td>60</td>
+            <td>Teresita C. Metrillo</td>
+            <td>Minute Burger</td>
+            <td>75 P. Domingo Street, Carmona, Makati City</td>
+            <td>₱43</td>
+            <td class="table-success">Delivered</td>
+          </tr>
+          
+          <tr>
+            <td>61</td>
+            <td>Juan C. Masipag</td>
+            <td>Beef Shawarma Burger</td>
+            <td>1121, Araneta Center Metro Manila</td>
+            <td>₱90</td>
+            <td class="table-success">Delivered</td>
+          </tr>
+          
+          <tr>
+            <td>62</td>
+            <td>Auria M. Francisco</td>
+            <td>Black Pepper Burger</td>
+            <td>Gotesco Grand Central 1400</td>
+            <td>₱98</td>
+            <td class="table-success">Delivered</td>
+          </tr>
+          
+          <tr>
+            <td>63</td>
+            <td>Perlita A. Sanchez</td>
+            <td>Steak Burger</td>
+            <td>Gasan Post Office
+            1661 Dupa, Marinduque</td>
+            <td>₱136</td>
+            <td class="table-success">Delivered</td>
+          </tr>
+          
+          <tr>
+            <td>64</td>
+            <td>Samuel H. Magtanggol</td>
+            <td>Chicken Time</td>
+            <td>80 Hermogenes Street, Sofia Subdivision</td>
+            <td>₱50</td>
+            <td class="table-success">Delivered</td>
+          </tr>
+          
+          <tr>
+            <td>65</td>
+            <td>Miracle Trevino</td>
+            <td>Cheesy Dog</td>
+            <td>Centerpoint Building, 406 Garnet Road</td>
+            <td>₱50</td>
+            <td class="table-warning">Transported</td>
+          </tr>
+          
+          <tr>
+            <td>66</td>
+            <td>Jimmy Sullivan</td>
+            <td>Cheeseburger Overload</td>
+            <td>Gotesco Grand Central 1400</td>
+            <td>₱146</td>
+            <td class="table-success">Delivered</td>
+          </tr>
+          
+          <tr>
+            <td>67</td>
+            <td>Kaiya Terrell</td>
+            <td>Minute Burger</td>
+            <td>San Jose St., 4018 Pangil</td>
+            <td>₱43</td>
+            <td class="table-success">Delivered</td>
+          </tr>
+          
+          <tr>
+            <td>68</td>
+            <td>Jaxen Solis</td>
+            <td>Minute Burger</td>
+            <td>Corner Rizal park, Crossing</td>
+            <td>₱43</td>
+            <td class="table-success">Delivered</td>
+          </tr>
+          
+          <tr>
+            <td>69</td>
+            <td>Rivka Lopez</td>
+            <td>Double Cheesy Burger</td>
+            <td>corner A. Regidor and P. Burgos Streets</td>
+            <td>₱80</td>
+            <td class="table-danger">Hold</td>
+          </tr>
+          
+          <tr>
+            <td>70</td>
+            <td>Mariana Kim</td>
+            <td>Double Minute Burger</td>
+            <td>233 J.P Rizal Street Sta. Elena</td>
+            <td>₱64</td>
+            <td class="table-success">Delivered</td>
+          </tr>
+          
+          <tr>
+            <td>71</td>
+            <td>Alberto Taylor</td>
+            <td>Steak Burger</td>
+            <td>8003 Alabang-Zapote Road</td>
+            <td>₱136</td>
+            <td class="table-success">Delivered</td>
+          </tr>
+          
+          <tr>
+            <td>72</td>
+            <td>Emma Chavez</td>
+            <td>Minute Burger</td>
+            <td>67 G De Jesus 1400</td>
+            <td>₱43</td>
+            <td class="table-danger">Hold</td>
+          </tr>
+          
+          <tr>
+            <td>73</td>
+            <td>Alexis Miles</td>
+            <td>Chicken Time</td>
+            <td>22/F Wynsum Corporate Plaza</td>
+            <td>₱50</td>
+            <td class="table-success">Delivered</td>
+          </tr>
+          
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script>
+    const tableRows = document.querySelectorAll('tbody tr');
+    tableRows.forEach(row => {
+      row.addEventListener('click', () => {
+        row.classList.toggle('selected');
+      });
+    });
+  </script>
+</body>
+</html>
